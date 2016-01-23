@@ -1,6 +1,7 @@
 body {
     font-family: 'Helvetica';
-    font-size: 1.5vw;
+    overflow: hidden;
+    font-size: 2vw;
 }
 
 /* Countdown timer transition */
@@ -16,7 +17,7 @@ body {
 
 .timer {
     margin: auto;
-    padding-top: 7.5vw;
+    padding-top: 7.5vh;
 }
 
 .timer td {

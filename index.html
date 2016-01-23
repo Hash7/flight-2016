@@ -14,9 +14,14 @@
         <div id="loader"></div>
         <div id="content">
             <div class="logo">
-                <img id="logo" class="logo" src="https://www.dropbox.com/s/or8vpl5rye2v9uh/Crazy%20Buddy.png?dl=1" />
+                <img id="logo" class="logo" src="flight.png" />
             </div>
             <div id="countdown">
+                <div id="short">
+                    <em>
+                        The stage is set! The curtain rises in ...
+                    </em>
+                </div>
                 <table class="timer">
                     <tr>
                         <td class="timer-val" id="day-val"></td>
@@ -32,23 +37,16 @@
                     </tr>
                 </table>
                 <div class="description">
-                    <div id="short">
-                        <em>
-                            Flight is some department's function, and it's conducted by blah blah blah f***.
-                            What's going on? What's happening?!!
-                            Okay, Please forgive me... I can't take anymore! I'm going to die!
-                        </em>
-                    </div>
                     <div class="contact">
-                        <p id="contact-head">Contact us!</p>
+                        <p id="contact-head">Contact us for more info!</p>
                         <div>
                             <img class='icon' src='http://buffaloschoolsfoundation.org/wp-content/uploads/2010/04/contact_icon.png' />
-                            +91 9999999999
+                            +91 97 152 55152
                         </div>
                         <div style="height: 1.2vw"></div>
                         <div>
                             <img class='icon' src='http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Email-icon.png' />
-                            foobar@kabbom.com
+                            mitflight16@gmail.com
                         </div>
                     </div>
                 </div>
@@ -65,7 +63,7 @@
             setTimeout(function() {     // temporary workaround
                 document.getElementById('logo').style.opacity = 1;
                 setTimeout(function() {
-                    document.getElementById('logo').style.opacity = 0.15;
+                    document.getElementById('logo').style.opacity = 0.25;
                     setTimeout(function() {
                         document.getElementById('countdown').style.opacity = 1;
                     }, 3000);
